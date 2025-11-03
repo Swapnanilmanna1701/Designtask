@@ -1,5 +1,4 @@
-import svgPaths from "./svg-3tkahkeaom";
-import ProfileText from "./ProfileText";
+import svgPaths from "./svg-kkukc8hcut";
 import imgFrame77064407 from "figma:asset/ba9d0e65070ce720394e657691e85e220b29f3af.png";
 import imgRectangle from "figma:asset/b00cb184f6fdb104c1fab94d498af1a07c1feaec.png";
 import imgRectangle1 from "figma:asset/971512ffae634d57bc6c80b5bfedc612a030b358.png";
@@ -45,7 +44,7 @@ import imgRectangle39 from "figma:asset/caa2028ac6eeeaa9c251de17866de3c416369c96
 import imgImage from "figma:asset/ba6c991734a4f01eadedab32bbd3528affc8c1de.png";
 import imgImage1 from "figma:asset/2c8fdf0fef59a0bf5fa44f76c6d84e71d87241a7.png";
 import img from "figma:asset/4f96b473aebcef35e924b1081c8286a1ecc79b2c.png";
-import { imgRectangle33, imgAsset11 } from "./svg-34b5d";
+import { imgRectangle33, imgAsset11 } from "./svg-bn3pa";
 
 function Frame() {
   return <div className="absolute bg-repeat bg-size-[612px_612px] bg-top-left h-[679px] left-0 top-[345px] w-[1440px]" style={{ backgroundImage: `url('${imgFrame77064407}')` }} />;
@@ -708,7 +707,7 @@ function DirectionBoard() {
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle35} />
         </div>
       </div>
-      <div className="absolute bottom-[59.11%] font-['ThaleahFat:Medium',_sans-serif] leading-[0.68] left-[calc(50%-4.225px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-38.151px_-46.665px] mask-size-[149px_182px] not-italic text-[23.193px] text-center text-nowrap text-white top-[23.82%] tracking-[1.6235px] translate-x-[-50%] uppercase whitespace-pre" style={{ maskImage: `url('${imgRectangle33}')` }}>
+      <div className="absolute bottom-[59.11%] font-['ThaleahFat:Medium',sans-serif] leading-[0.68] left-[calc(50%-4.225px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-38.151px_-46.665px] mask-size-[149px_182px] not-italic text-[23.193px] text-center text-nowrap text-white top-[23.82%] tracking-[1.6235px] translate-x-[-50%] uppercase whitespace-pre" style={{ maskImage: `url('${imgRectangle33}')` }}>
         <p className="mb-0">mining</p>
         <p>site</p>
       </div>
@@ -898,7 +897,7 @@ function Gold() {
 
 function NavLinks() {
   return (
-    <div className="absolute content-stretch flex font-['ThaleahFat:Medium',_sans-serif] gap-[50px] items-center leading-[0.74] left-[calc(50%+159px)] not-italic text-[24px] text-nowrap text-white top-[38px] translate-x-[-50%] uppercase whitespace-pre" data-name="Nav-links">
+    <div className="absolute content-stretch flex font-['ThaleahFat:Medium',sans-serif] gap-[50px] items-center leading-[0.74] left-[calc(50%+159px)] not-italic text-[24px] text-nowrap text-white top-[38px] translate-x-[-50%] uppercase whitespace-pre" data-name="Nav-links">
       <p className="relative shrink-0">about</p>
       <p className="relative shrink-0">Leaderboard</p>
     </div>
@@ -907,7 +906,7 @@ function NavLinks() {
 
 function NavLinks1() {
   return (
-    <div className="absolute content-stretch flex font-['ThaleahFat:Medium',_sans-serif] gap-[58px] items-center leading-[0.74] left-[calc(50%-191px)] not-italic text-[24px] text-nowrap text-white top-[38px] translate-x-[-50%] uppercase whitespace-pre" data-name="Nav-links">
+    <div className="absolute content-stretch flex font-['ThaleahFat:Medium',sans-serif] gap-[58px] items-center leading-[0.74] left-[calc(50%-191px)] not-italic text-[24px] text-nowrap text-white top-[38px] translate-x-[-50%] uppercase whitespace-pre" data-name="Nav-links">
       <p className="relative shrink-0">Dapp</p>
       <p className="relative shrink-0">quests</p>
     </div>
@@ -937,9 +936,7 @@ function Board() {
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle39} />
         </div>
       </div>
-      <div className="absolute inset-[42.32%_12.09%_37.25%_17.23%]">
-        <ProfileText />
-      </div>
+      <p className="absolute font-['ThaleahFat:Medium',sans-serif] inset-[42.32%_12.09%_37.25%_17.23%] leading-[0.74] not-italic text-[#feca61] text-[37.237px] text-nowrap uppercase whitespace-pre">PROFILE</p>
     </div>
   );
 }
@@ -975,7 +972,7 @@ function Group1() {
 
 function Balance() {
   return (
-    <div className="content-stretch flex font-['Inter:Medium',_sans-serif] font-medium gap-[9.283px] items-end leading-[normal] not-italic relative shrink-0 text-[#ffd3bf] text-nowrap whitespace-pre" data-name="Balance">
+    <div className="content-stretch flex font-['Inter:Medium',sans-serif] font-medium gap-[9.283px] items-end leading-[normal] not-italic relative shrink-0 text-[#ffd3bf] text-nowrap whitespace-pre" data-name="Balance">
       <p className="relative shrink-0 text-[16.245px]">Balance:</p>
       <p className="relative shrink-0 text-[15.085px] tracking-[1.5085px] uppercase">0 Mole</p>
     </div>
@@ -985,7 +982,7 @@ function Balance() {
 function PriceBalance() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4.641px] items-start left-[83.55px] top-[276.17px] w-[312.138px]" data-name="Price & balance">
-      <p className="font-['Inter:Semi_Bold',_sans-serif] font-[550] leading-[normal] min-w-full not-italic relative shrink-0 text-[18.566px] text-white tracking-[-0.3713px] w-[min-content]">0xc0ffee254729296.....10F9d54979</p>
+      <p className="font-['Inter:Semi_Bold',sans-serif] font-[550] leading-[normal] min-w-full not-italic relative shrink-0 text-[18.566px] text-white tracking-[-0.3713px] w-[min-content]">0xc0ffee254729296.....10F9d54979</p>
       <Balance />
     </div>
   );
@@ -1151,7 +1148,7 @@ function Button1() {
 function AllTimeBest() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4.641px] items-start left-[44.09px] top-[452.54px] w-[129.961px]" data-name="All time best">
-      <p className="font-['Inter:Semi_Bold',_sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#f7d580] text-[15.085px] text-nowrap tracking-[1.5085px] uppercase whitespace-pre">current rank</p>
+      <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#f7d580] text-[15.085px] text-nowrap tracking-[1.5085px] uppercase whitespace-pre">current rank</p>
       <div className="absolute h-[15.085px] left-[5.8px] top-[25.53px] w-[81.199px]" data-name="#2339">
         <div className="absolute inset-[-38.1%_-7.08%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 93 27">
@@ -1195,7 +1192,7 @@ function AllTimeBest() {
 function AllTimeBest1() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4.641px] items-start left-[232.07px] top-[452.54px] w-[129.961px]" data-name="All time best">
-      <p className="font-['Inter:Semi_Bold',_sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#f7d580] text-[15.085px] text-nowrap tracking-[1.5085px] uppercase whitespace-pre">All time best</p>
+      <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#f7d580] text-[15.085px] text-nowrap tracking-[1.5085px] uppercase whitespace-pre">All time best</p>
       <div className="absolute h-[15.085px] left-[5.8px] top-[25.53px] w-[81.199px]" data-name="#2339">
         <div className="absolute inset-[-38.1%_-7.08%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 93 27">
@@ -1641,7 +1638,7 @@ function Frame2() {
           </defs>
         </svg>
       </div>
-      <p className="absolute bg-clip-text bg-gradient-to-b font-['ThaleahFat:Medium',_sans-serif] from-[#fdfddd] from-[12.628%] leading-[1.5] left-[calc(50%-84.416px)] not-italic text-[27.849px] text-nowrap to-[#feae34] to-[125.47%] top-[5.8px] tracking-[-0.1392px] whitespace-pre" style={{ WebkitTextFillColor: "transparent" }}>
+      <p className="absolute bg-clip-text bg-gradient-to-b font-['ThaleahFat:Medium',sans-serif] from-[#fdfddd] from-[12.628%] leading-[1.5] left-[calc(50%-84.416px)] not-italic text-[27.849px] text-nowrap to-[#feae34] to-[125.47%] top-[5.8px] tracking-[-0.1392px] whitespace-pre" style={{ WebkitTextFillColor: "transparent" }}>
         Switch profile
       </p>
     </div>
@@ -1682,8 +1679,8 @@ export default function ProfileCurrentVar() {
       <MaskGroup />
       <Cloud />
       <C1 />
-      <Grass2 />
       <Minecart />
+      <Grass2 />
       <DirectionBoard />
       <MaskGroupGen />
       <Gold />
